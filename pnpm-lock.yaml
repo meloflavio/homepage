@@ -22,6 +22,9 @@ dependencies:
   '@ffmpeg-installer/ffmpeg':
     specifier: ^1.1.0
     version: 1.1.0
+  '@ffmpeg-installer/linux-x64':
+    specifier: ^4.1.0
+    version: 4.1.0
   '@openlab/vercel-netlify-cms-github':
     specifier: ^1.1.1
     version: 1.1.1
@@ -46,9 +49,6 @@ dependencies:
   eslint-config-next:
     specifier: 13.4.7
     version: 13.4.7(eslint@8.43.0)(typescript@5.3.2)
-  ffmpeg:
-    specifier: ^0.0.4
-    version: 0.0.4
   ffmpeg-static:
     specifier: ^5.2.0
     version: 5.2.0
@@ -62,7 +62,7 @@ dependencies:
     specifier: 1.4.5-lts.1
     version: 1.4.5-lts.1
   next:
-    specifier: '>=13.4.20-canary.13'
+    specifier: ^14.1.4
     version: 14.1.4(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
   next-compose-plugins:
     specifier: ^2.2.1
@@ -1977,7 +1977,6 @@ packages:
     os: [linux]
     requiresBuild: true
     dev: false
-    optional: true
 
   /@ffmpeg-installer/win32-ia32@4.1.0:
     resolution: {integrity: sha512-FV2D7RlaZv/lrtdhaQ4oETwoFUsUjlUiasiZLDxhEUPdNDWcH1OU9K1xTvqz+OXLdsmYelUDuBS/zkMOTtlUAw==}
@@ -5436,12 +5435,6 @@ packages:
       progress: 2.0.3
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /ffmpeg@0.0.4:
-    resolution: {integrity: sha512-3TgWUJJlZGQn+crJFyhsO/oNeRRnGTy6GhgS98oUCIfZrOW5haPPV7DUfOm3xJcHr5q3TJpjk2GudPutrNisRA==}
-    dependencies:
-      when: 3.7.8
     dev: false
 
   /file-entry-cache@6.0.1:
@@ -9958,10 +9951,6 @@ packages:
       lodash.sortby: 4.7.0
       tr46: 1.0.1
       webidl-conversions: 4.0.2
-
-  /when@3.7.8:
-    resolution: {integrity: sha512-5cZ7mecD3eYcMiCH4wtRPA5iFJZ50BJYDfckI5RRpQiktMiYTcn0ccLTZOvcbBume+1304fQztxeNzNS9Gvrnw==}
-    dev: false
 
   /which-boxed-primitive@1.0.2:
     resolution: {integrity: sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg==}
