@@ -30,13 +30,13 @@ dependencies:
     version: 1.1.1
   '@phosphor-icons/react':
     specifier: ^2.0.9
-    version: 2.0.9(react-dom@18.2.0)(react@18.2.0)
+    version: 2.0.9(react-dom@18.2.0)(react@18.3.0)
   '@types/node':
     specifier: 20.10.0
     version: 20.10.0
   '@types/react':
-    specifier: 18.2.13
-    version: 18.2.13
+    specifier: 18.3.0
+    version: 18.3.0
   '@types/react-dom':
     specifier: 18.2.5
     version: 18.2.5
@@ -63,13 +63,13 @@ dependencies:
     version: 1.4.5-lts.1
   next:
     specifier: ^13.5.6
-    version: 13.5.6(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
+    version: 13.5.6(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.3.0)
   next-compose-plugins:
     specifier: ^2.2.1
     version: 2.2.1
   next-contentlayer:
     specifier: ^0.3.2
-    version: 0.3.2(esbuild@0.17.19)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
+    version: 0.3.2(esbuild@0.17.19)(next@13.5.6)(react-dom@18.2.0)(react@18.3.0)
   next-pwa:
     specifier: ^5.6.0
     version: 5.6.0(@babel/core@7.22.1)(@swc/core@1.3.66)(esbuild@0.17.19)(next@13.5.6)(webpack@5.87.0)
@@ -77,11 +77,11 @@ dependencies:
     specifier: 8.4.31
     version: 8.4.31
   react:
-    specifier: 18.2.0
-    version: 18.2.0
+    specifier: 18.3.0
+    version: 18.3.0
   react-dom:
     specifier: 18.2.0
-    version: 18.2.0(react@18.2.0)
+    version: 18.2.0(react@18.3.0)
   reading-time:
     specifier: ^1.5.0
     version: 1.5.0
@@ -119,7 +119,7 @@ devDependencies:
     version: 5.16.5
   '@testing-library/react':
     specifier: ^14.0.0
-    version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
+    version: 14.0.0(react-dom@18.2.0)(react@18.3.0)
   '@types/fluent-ffmpeg':
     specifier: ^2.1.24
     version: 2.1.24
@@ -134,7 +134,7 @@ devDependencies:
     version: 1.4.11
   '@types/next-pwa':
     specifier: ^5.6.4
-    version: 5.6.4(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
+    version: 5.6.4(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.3.0)
   '@types/testing-library__jest-dom':
     specifier: ^5.14.6
     version: 5.14.6
@@ -182,7 +182,7 @@ devDependencies:
     version: 0.3.0(prettier@2.8.8)
   tailwind-styled-components:
     specifier: ^2.2.0
-    version: 2.2.0(react-dom@18.2.0)(react@18.2.0)
+    version: 2.2.0(react-dom@18.2.0)(react@18.3.0)
 
 packages:
 
@@ -2724,15 +2724,15 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /@phosphor-icons/react@2.0.9(react-dom@18.2.0)(react@18.2.0):
+  /@phosphor-icons/react@2.0.9(react-dom@18.2.0)(react@18.3.0):
     resolution: {integrity: sha512-/dtQ0M9MXAr35wy8zPlwF684EvYRvGWZPAv+Bd0BR4vzIhjzfLBdHSovFxSP1rj3UOHvVR08qgRL04Kv90oqHA==}
     engines: {node: '>=10'}
     peerDependencies:
       react: '>= 16.8'
       react-dom: '>= 16.8'
     dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.2.0(react@18.3.0)
     dev: false
 
   /@pkgr/utils@2.4.1:
@@ -3028,7 +3028,7 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react@14.0.0(react-dom@18.2.0)(react@18.2.0):
+  /@testing-library/react@14.0.0(react-dom@18.2.0)(react@18.3.0):
     resolution: {integrity: sha512-S04gSNJbYE30TlIMLTzv6QCTzt9AqIF5y6s6SzVFILNcNvbV/jU96GeiTPillGQo+Ny64M/5PV7klNYYgv5Dfg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -3038,8 +3038,8 @@ packages:
       '@babel/runtime': 7.21.5
       '@testing-library/dom': 9.3.0
       '@types/react-dom': 18.2.5
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.2.0(react@18.3.0)
     dev: true
 
   /@tootallnate/once@2.0.0:
@@ -3248,11 +3248,11 @@ packages:
       '@types/express': 4.17.21
     dev: true
 
-  /@types/next-pwa@5.6.4(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0):
+  /@types/next-pwa@5.6.4(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.3.0):
     resolution: {integrity: sha512-ysfWc9FO0yFih1qr84kU+3svvUXPdQA9qi4GYJhFWr3Jx+x/TpH0c2cEBcUiUHLdi+pWnotFbpRguReS0Lb+dg==}
     dependencies:
-      '@types/react': 18.2.13
-      next: 13.5.6(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
+      '@types/react': 18.3.0
+      next: 13.5.6(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.3.0)
       workbox-build: 6.6.0
     transitivePeerDependencies:
       - '@babel/core'
@@ -3296,13 +3296,12 @@ packages:
   /@types/react-dom@18.2.5:
     resolution: {integrity: sha512-sRQsOS/sCLnpQhR4DSKGTtWFE3FZjpQa86KPVbhUqdYMRZ9FEFcfAytKhR/vUG2rH1oFbOOej6cuD7MFSobDRQ==}
     dependencies:
-      '@types/react': 18.2.13
+      '@types/react': 18.3.0
 
-  /@types/react@18.2.13:
-    resolution: {integrity: sha512-vJ+zElvi/Zn9cVXB5slX2xL8PZodPCwPRDpittQdw43JR2AJ5k3vKdgJJyneV/cYgIbLQUwXa9JVDvUZXGba+Q==}
+  /@types/react@18.3.0:
+    resolution: {integrity: sha512-DiUcKjzE6soLyln8NNZmyhcQjVv+WsUIFSqetMN0p8927OztKT4VTfFTqsbAi5oAGIcgOmOajlfBqyptDDjZRw==}
     dependencies:
       '@types/prop-types': 15.7.5
-      '@types/scheduler': 0.16.3
       csstype: 3.1.2
 
   /@types/resolve@1.17.1:
@@ -3313,9 +3312,6 @@ packages:
   /@types/resolve@1.20.2:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
     dev: false
-
-  /@types/scheduler@0.16.3:
-    resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
 
   /@types/semver@7.5.0:
     resolution: {integrity: sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==}
@@ -7863,7 +7859,7 @@ packages:
     resolution: {integrity: sha512-OjJ+fV15FXO2uQXQagLD4C0abYErBjyjE0I0FHpOEIB8upw0hg1ldFP6cqHTJBH1cZqy96OeR3u1dJ+Ez2D4Bg==}
     dev: false
 
-  /next-contentlayer@0.3.2(esbuild@0.17.19)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0):
+  /next-contentlayer@0.3.2(esbuild@0.17.19)(next@13.5.6)(react-dom@18.2.0)(react@18.3.0):
     resolution: {integrity: sha512-pihb/VtBq30eV+WpaWakWVtA1DWKzfXeaL7l/vR4MvrTO8UtZaX9H6wY0oSOqrmy674BRjXiQ03PbEOE5D6/iA==}
     peerDependencies:
       next: '>=13.4.20-canary.13'
@@ -7872,9 +7868,9 @@ packages:
     dependencies:
       '@contentlayer/core': 0.3.2(esbuild@0.17.19)
       '@contentlayer/utils': 0.3.2
-      next: 13.5.6(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      next: 13.5.6(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.3.0)
+      react: 18.3.0
+      react-dom: 18.2.0(react@18.3.0)
     transitivePeerDependencies:
       - '@effect-ts/otel-node'
       - esbuild
@@ -7890,7 +7886,7 @@ packages:
       babel-loader: 8.3.0(@babel/core@7.22.1)(webpack@5.87.0)
       clean-webpack-plugin: 4.0.0(webpack@5.87.0)
       globby: 11.1.0
-      next: 13.5.6(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
+      next: 13.5.6(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.3.0)
       terser-webpack-plugin: 5.3.9(@swc/core@1.3.66)(esbuild@0.17.19)(webpack@5.87.0)
       workbox-webpack-plugin: 6.6.0(webpack@5.87.0)
       workbox-window: 6.6.0
@@ -7904,7 +7900,7 @@ packages:
       - webpack
     dev: false
 
-  /next@13.5.6(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0):
+  /next@13.5.6(@babel/core@7.22.1)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.3.0):
     resolution: {integrity: sha512-Y2wTcTbO4WwEsVb4A8VSnOsG1I9ok+h74q0ZdxkwM3EODqrs4pasq7O0iUxbcS9VtWMicG7f3+HAj0r1+NtKSw==}
     engines: {node: '>=16.14.0'}
     hasBin: true
@@ -7925,9 +7921,9 @@ packages:
       busboy: 1.6.0
       caniuse-lite: 1.0.30001606
       postcss: 8.4.31
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      styled-jsx: 5.1.1(@babel/core@7.22.1)(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.2.0(react@18.3.0)
+      styled-jsx: 5.1.1(@babel/core@7.22.1)(react@18.3.0)
       watchpack: 2.4.0
     optionalDependencies:
       '@next/swc-darwin-arm64': 13.5.6
@@ -8538,13 +8534,13 @@ packages:
     dependencies:
       safe-buffer: 5.2.1
 
-  /react-dom@18.2.0(react@18.2.0):
+  /react-dom@18.2.0(react@18.3.0):
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
       react: ^18.2.0
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
+      react: 18.3.0
       scheduler: 0.23.0
 
   /react-is@16.13.1:
@@ -8558,8 +8554,8 @@ packages:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
     dev: true
 
-  /react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  /react@18.3.0:
+    resolution: {integrity: sha512-RPutkJftSAldDibyrjuku7q11d3oy6wKOyPe5K1HA/HwwrXcEqBdHsLypkC2FFYjP7bPUa6gbzSBhw4sY2JcDg==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -9265,7 +9261,7 @@ packages:
       inline-style-parser: 0.1.1
     dev: false
 
-  /styled-jsx@5.1.1(@babel/core@7.22.1)(react@18.2.0):
+  /styled-jsx@5.1.1(@babel/core@7.22.1)(react@18.3.0):
     resolution: {integrity: sha512-pW7uC1l4mBZ8ugbiZrcIsiIvVx1UmTfw7UkC3Um2tmfUq9Bhk8IiyEIPl6F8agHgjzku6j0xQEZbfA5uSgSaCw==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -9280,7 +9276,7 @@ packages:
     dependencies:
       '@babel/core': 7.22.1
       client-only: 0.0.1
-      react: 18.2.0
+      react: 18.3.0
 
   /sucrase@3.32.0:
     resolution: {integrity: sha512-ydQOU34rpSyj2TGyz4D2p8rbktIOZ8QY9s+DGLvFU1i5pWJE8vkpruCjGCMHsdXwnD7JDcS+noSwM/a7zyNFDQ==}
@@ -9334,14 +9330,14 @@ packages:
     resolution: {integrity: sha512-Y17eDp7FtN1+JJ4OY0Bqv9OA41O+MS8c1Iyr3T6JFLnOgLg3EvcyMKZAnQ8AGyvB5Nxm3t9Xb5Mhe139m8QT/g==}
     dev: true
 
-  /tailwind-styled-components@2.2.0(react-dom@18.2.0)(react@18.2.0):
+  /tailwind-styled-components@2.2.0(react-dom@18.2.0)(react@18.3.0):
     resolution: {integrity: sha512-Ogemwk0p69aU8WE/ooJZHjqstdJgT5R6HGU6TFz2uSnveSEtvW+C6aWOjGCvCr5H/bREv0IbbQ4yODknRrLBRQ==}
     peerDependencies:
       react: '>= 16.8.0'
       react-dom: '>= 16.8.0'
     dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.2.0(react@18.3.0)
       tailwind-merge: 1.12.0
     dev: true
 
